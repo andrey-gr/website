@@ -253,6 +253,9 @@ img, picture {
   margin: 0;
   max-width: 100%; }
 
+.fa-heart {
+  color: red; }
+
 .roundy {
   font-weight: normal;
   font-size: 100px;
@@ -266,9 +269,6 @@ img, picture {
   width: 2em;
   border-color: #ffffff;
   margin-bottom: 0.5em; }
-
-.fa-heart {
-  color: red; }
 
 header#header {
   background-image: url("/img/background.png");
