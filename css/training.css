@@ -261,9 +261,6 @@ img, picture {
   border-color: #ffffff;
   margin-bottom: 0.5em; }
 
-.fa-heart {
-  color: red; }
-
 header#header {
   background-image: url("/img/background.png");
   background-position: center;
@@ -271,189 +268,148 @@ header#header {
   background-size: cover;
   text-align: center;
   color: white; }
-  header#header .logo .achivement {
-    position: relative;
-    top: 50px; }
-    @media screen and (max-width: 767px) {
-      header#header .logo .achivement {
-        top: 20px;
-        width: 80px; } }
-  header#header input {
-    margin-top: 30px; }
-
-.menu {
-  margin-bottom: 50px; }
-  .menu a {
-    margin-right: 30px; }
-
-.about {
-  text-align: center;
-  color: white;
-  background-image: -webkit-linear-gradient(30deg, #3d82ab 50%, #5E98BA 50%);
-  background-image: linear-gradient(60deg, #3d82ab 50%, #5E98BA 50%); }
-  .about .why {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    .about .why::after {
-      clear: both;
-      content: "";
-      display: table; }
-    .about .why .practitioners {
-      margin-top: 80px;
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .about .why .practitioners:last-child {
-        margin-right: 0; }
-      @media screen and (max-width: 767px) {
-        .about .why .practitioners {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          .about .why .practitioners:last-child {
-            margin-right: 0; } }
-    .about .why .exclusive {
-      margin-top: 80px;
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .about .why .exclusive:last-child {
-        margin-right: 0; }
-      @media screen and (max-width: 767px) {
-        .about .why .exclusive {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          .about .why .exclusive:last-child {
-            margin-right: 0; } }
-    .about .why .certification {
-      margin-top: 80px;
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .about .why .certification:last-child {
-        margin-right: 0; }
-      @media screen and (max-width: 767px) {
-        .about .why .certification {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          .about .why .certification:last-child {
-            margin-right: 0; } }
-
-.logo h1 {
-  font-weight: bold; }
-  .logo h1 strong {
-    font-weight: bold;
-    border-bottom: 3px solid #5E98BA;
-    display: inline; }
 
 .container {
-  padding: 50px; }
-  .container h1 {
-    text-align: center; }
-
-.training {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px; }
-  .training::after {
+  padding: 50px; }
+  .container::after {
     clear: both;
     content: "";
     display: table; }
-  .training .trainer {
+  .container h1 {
     text-align: center; }
-    .training .trainer .pic {
-      -webkit-border-bottom-left-radius: 100%;
-              border-bottom-left-radius: 100%;
-      -webkit-border-top-left-radius: 100%;
-              border-top-left-radius: 100%;
-      -webkit-border-bottom-right-radius: 100%;
-              border-bottom-right-radius: 100%;
-      -webkit-border-top-right-radius: 100%;
-              border-top-right-radius: 100%;
-      -webkit-border-bottom-left-radius: 100%;
-              border-bottom-left-radius: 100%;
-      -webkit-border-bottom-right-radius: 100%;
-              border-bottom-right-radius: 100%;
-      -webkit-border-bottom-left-radius: 100%;
-              border-bottom-left-radius: 100%;
-      -webkit-border-top-left-radius: 100%;
-              border-top-left-radius: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 25px; }
-  @media screen and (max-width: 767px) {
-    .training header {
-      text-align: center; } }
-  .training header img {
-    position: relative;
-    top: 20px; }
-    @media screen and (max-width: 767px) {
-      .training header img {
-        top: 0px; } }
-  .training header h2 {
-    display: inline;
-    position: relative;
-    margin-bottom: 10px; }
-    @media screen and (max-width: 767px) {
-      .training header h2 {
-        display: block;
-        font-size: 1.5em; } }
-  .training h3 {
-    margin-bottom: 50px; }
-  .training section {
-    max-width: 68em;
+
+#description {
+  color: white;
+  background-image: -webkit-linear-gradient(30deg, #3d82ab 50%, #5E98BA 50%);
+  background-image: linear-gradient(60deg, #3d82ab 50%, #5E98BA 50%); }
+
+.trainer {
+  text-align: center; }
+  .trainer .pic {
+    -webkit-border-bottom-left-radius: 100%;
+            border-bottom-left-radius: 100%;
+    -webkit-border-top-left-radius: 100%;
+            border-top-left-radius: 100%;
+    -webkit-border-bottom-right-radius: 100%;
+            border-bottom-right-radius: 100%;
+    -webkit-border-top-right-radius: 100%;
+            border-top-right-radius: 100%;
+    -webkit-border-bottom-left-radius: 100%;
+            border-bottom-left-radius: 100%;
+    -webkit-border-bottom-right-radius: 100%;
+            border-bottom-right-radius: 100%;
+    -webkit-border-bottom-left-radius: 100%;
+            border-bottom-left-radius: 100%;
+    -webkit-border-top-left-radius: 100%;
+            border-top-left-radius: 100%;
     margin-left: auto;
     margin-right: auto; }
-    .training section::after {
-      clear: both;
-      content: "";
-      display: table; }
-    .training section .trainer {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .training section .trainer:last-child {
-        margin-right: 0; }
-      @media screen and (max-width: 767px) {
-        .training section .trainer {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          .training section .trainer:last-child {
-            margin-right: 0; } }
-    .training section .description {
-      padding-left: 30px;
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 74.41059%; }
-      .training section .description:last-child {
-        margin-right: 0; }
-      @media screen and (max-width: 767px) {
-        .training section .description {
-          margin-top: 30px;
-          text-align: center;
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          .training section .description:last-child {
-            margin-right: 0; } }
 
-.actions {
-  margin-top: 20px; }
+#offers .offer {
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #5E98BA;
+  -webkit-border-top-left-radius: 20px;
+          border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+          border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+          border-top-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+  -webkit-border-top-left-radius: 20px;
+          border-top-left-radius: 20px; }
+  #offers .offer h2 {
+    border-bottom: 1px dashed #5E98BA;
+    padding-bottom: 10px;
+    margin: 10px; }
+  #offers .offer .price {
+    color: #FFF;
+    font-size: 70px;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    background-color: #5E98BA;
+    border: 1px solid #5E98BA;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    margin-bottom: 50px; }
+    #offers .offer .price .child {
+      padding: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+
+#offers .earlyPack {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #offers .earlyPack:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 992px) {
+    #offers .earlyPack {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      #offers .earlyPack:last-child {
+        margin-right: 0; } }
+
+#offers .earlyBird {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #offers .earlyBird:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 992px) {
+    #offers .earlyBird {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      #offers .earlyBird:last-child {
+        margin-right: 0; } }
+
+#offers .wiseman {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #offers .wiseman:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 992px) {
+    #offers .wiseman {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      #offers .wiseman:last-child {
+        margin-right: 0; } }
+
+.pricing-clarify {
+  font-size: 0.8em;
+  text-align: right; }
+  .pricing-clarify p {
+    margin: 0.8em; }
 
 footer {
   max-width: 68em;
