@@ -279,7 +279,7 @@ header#header {
   color: white; }
   header#header .logo .achivement {
     position: relative;
-    top: 50px; }
+    top: 30px; }
     @media screen and (max-width: 767px) {
       header#header .logo .achivement {
         top: 20px;

@@ -290,9 +290,11 @@ header#header {
   .container h1 {
     text-align: center; }
 
-.logo img {
-  position: relative;
-  top: 20px; }
+.logo {
+  margin-top: 50px; }
+  .logo img {
+    position: relative;
+    top: 20px; }
 
 #description {
   color: white;
