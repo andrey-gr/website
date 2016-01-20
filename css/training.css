@@ -290,13 +290,32 @@ header#header {
   .container h1 {
     text-align: center; }
 
+.logo img {
+  position: relative;
+  top: 20px; }
+
 #description {
   color: white;
   background-image: -webkit-linear-gradient(30deg, #3d82ab 50%, #5E98BA 50%);
   background-image: linear-gradient(60deg, #3d82ab 50%, #5E98BA 50%); }
+  @media screen and (max-width: 992px) {
+    #description article {
+      text-align: center; } }
+  #description h3 strong {
+    font-weight: bold; }
+
+@media screen and (max-width: 992px) {
+  .training .description {
+    text-align: center !important; } }
+
+.training .description a {
+  color: #5E98BA; }
+  .training .description a:hover {
+    color: #3d82ab; }
 
 .trainer {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 50px; }
   .trainer .pic {
     -webkit-border-bottom-left-radius: 100%;
             border-bottom-left-radius: 100%;
@@ -315,13 +334,45 @@ header#header {
     -webkit-border-top-left-radius: 100%;
             border-top-left-radius: 100%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    margin-bottom: 25px; }
+
+.shorties {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .shorties::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.shorty {
+  text-align: center;
+  margin-top: 70px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .shorty:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 767px) {
+    .shorty {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .shorty:last-child {
+        margin-right: 0; } }
 
 #offers .offer {
   padding: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
   text-align: center;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
   border-width: 2px;
   border-style: solid;
   border-color: #5E98BA;
@@ -341,6 +392,24 @@ header#header {
           border-bottom-left-radius: 20px;
   -webkit-border-top-left-radius: 20px;
           border-top-left-radius: 20px; }
+  #offers .offer:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 767px) {
+    #offers .offer {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      #offers .offer:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 992px) {
+    #offers .offer {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      #offers .offer:last-child {
+        margin-right: 0; } }
   #offers .offer h2 {
     border-bottom: 1px dashed #5E98BA;
     padding-bottom: 10px;
@@ -365,54 +434,6 @@ header#header {
       -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
-
-#offers .earlyPack {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-  #offers .earlyPack:last-child {
-    margin-right: 0; }
-  @media screen and (max-width: 992px) {
-    #offers .earlyPack {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      #offers .earlyPack:last-child {
-        margin-right: 0; } }
-
-#offers .earlyBird {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-  #offers .earlyBird:last-child {
-    margin-right: 0; }
-  @media screen and (max-width: 992px) {
-    #offers .earlyBird {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      #offers .earlyBird:last-child {
-        margin-right: 0; } }
-
-#offers .wiseman {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-  #offers .wiseman:last-child {
-    margin-right: 0; }
-  @media screen and (max-width: 992px) {
-    #offers .wiseman {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      #offers .wiseman:last-child {
-        margin-right: 0; } }
 
 .pricing-clarify {
   font-size: 0.8em;

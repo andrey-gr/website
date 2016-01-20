@@ -362,7 +362,7 @@ header#header {
     display: inline; }
 
 .container {
-  padding: 50px; }
+  padding: 47px; }
   .container h1 {
     text-align: center; }
   @media screen and (max-width: 767px) {
@@ -452,14 +452,16 @@ header#header {
         margin-right: 0; }
       @media screen and (max-width: 767px) {
         .training section .description {
-          margin-top: 30px;
-          text-align: center;
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 100%; }
           .training section .description:last-child {
             margin-right: 0; } }
+      @media screen and (max-width: 767px) {
+        .training section .description {
+          margin-top: 30px;
+          text-align: center; } }
 
 .actions {
   margin-top: 20px; }
