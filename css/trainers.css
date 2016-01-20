@@ -21,3 +21,9 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 175px;
   height: 175px;
 }
+.icon-eduardsi {
+  background-image: url(/img/trainers.png);
+  background-position: 0px -175px;
+  width: 175px;
+  height: 175px;
+}

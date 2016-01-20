@@ -225,6 +225,9 @@ h2 {
 h3 {
   font-size: 1em; }
 
+h4 {
+  font-size: 1em; }
+
 p {
   margin: 0 0 0.75em; }
 
@@ -233,6 +236,11 @@ p a {
 
 strong {
   font-weight: normal; }
+
+blockquote {
+  border-left: 1px solid white;
+  padding-left: 20px;
+  margin-left: 0; }
 
 a {
   color: white;
@@ -307,6 +315,8 @@ header#header {
     margin-top: 1.5em; }
   #description h3 strong {
     font-weight: bold; }
+  #description h4 {
+    margin-left: 1em; }
 
 @media screen and (max-width: 992px) {
   .training .description {
