@@ -327,6 +327,13 @@ header#header {
   .training .description a:hover {
     color: #3d82ab; }
 
+.training .description .quote {
+  font-style: italic;
+  margin-top: 2em;
+  text-align: right; }
+  .training .description .quote hr {
+    border-color: #5E98BA; }
+
 .trainer {
   text-align: center;
   margin-bottom: 50px; }
