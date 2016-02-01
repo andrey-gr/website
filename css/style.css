@@ -242,6 +242,15 @@ blockquote {
   padding-left: 20px;
   margin-left: 0; }
 
+a.darken {
+  color: #5E98BA;
+  text-decoration: none;
+  -webkit-transition: color 150ms ease;
+  transition: color 150ms ease;
+  border-bottom: 1px dashed #5E98BA; }
+  a.darken:active, a.darken:focus, a.darken:hover {
+    color: #3d82ab; }
+
 a {
   color: white;
   text-decoration: none;
@@ -376,6 +385,11 @@ header#header {
   @media screen and (max-width: 767px) {
     .container {
       padding: 20px; } }
+
+.trainings blockquote {
+  border-color: #5E98BA; }
+  .trainings blockquote a {
+    color: #5E98BA; }
 
 .training {
   max-width: 68em;
