@@ -320,6 +320,8 @@ header#header {
   @media screen and (max-width: 992px) {
     #description article {
       text-align: center; } }
+  #description strong {
+    font-weight: bold; }
   #description h2 {
     margin-top: 1.5em; }
   #description h3 strong {
