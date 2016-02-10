@@ -486,7 +486,49 @@ header#header {
           text-align: center; } }
 
 .actions {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px; }
+  .actions::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .actions .more {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .actions .more:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 767px) {
+      .actions .more {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .actions .more:last-child {
+          margin-right: 0; } }
+  .actions .social {
+    text-align: right;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .actions .social:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 767px) {
+      .actions .social {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .actions .social:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 767px) {
+      .actions .social {
+        margin-top: 40px;
+        text-align: center; } }
 
 footer {
   max-width: 68em;

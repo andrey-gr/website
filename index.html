@@ -14,9 +14,19 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js"></script>
   </head>
   <body>
-    <script src="/js/main.js"></script>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=433199826742778";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <header id="header"> 
       <div class="container">
         <div class="menu"><a href="#about">About</a><a href="#trainings">Trainings</a><a href="#contacts">Contacts</a><a href="https://twitter.com/devchampions"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/devchampions"><i class="fa fa-facebook"></i></a><a href="https://linkedin.com/company/devchampions"><i class="fa fa-linkedin"></i></a></div>
@@ -60,7 +70,12 @@
               <div><a href="https://twitter.com/alexeykri"><img src="/img/twitter.png" alt="alexeykri"></a><strong>&nbsp;Alexey Krivitsky</strong><br>Certified Scrum Trainer® with the ScrumAlliance</div>
             </div>
             <div class="description">The training objectives are focused around common product management challenges of different company types: from in-house product development to project-oriented outsourcing-like companies. It helps enable lean product thinking in classical product management cultures by offering modern thinking tools and proven methods. The class is designed to help Product Owners improve their fit and influence throughout the Agile organization to maximize business value and team satisfaction. Hence, it covers all dimensions of “what it takes to be a brilliant Product Owner”: from Stakeholder and Value Management, to mastering the Product Lifecycle and Craftsmanship. 
-              <div class="actions"><a href="training/cspo" class="action">More information</a></div>
+              <div class="actions">
+                <div class="more"> <a href="training/cspo" class="action">More information</a></div>
+                <div class="social">
+                  <div data-href="http://devchampions.com/training/cspo" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true" class="fb-like"></div>
+                </div>
+              </div>
             </div>
           </section>
         </section>
@@ -75,7 +90,12 @@
               <div><a href="https://twitter.com/alexeykri"><img src="/img/twitter.png" alt="alexeykri"></a><strong>&nbsp;Alexey Krivitsky</strong><br>Certified Scrum Trainer® with the ScrumAlliance</div>
             </div>
             <div class="description">This is an official ScrumAlliance two-day intensive certification class specially designed for ScrumMasters, Team Leads and Project Managers working with Agile teams. The class prepares you for fulfilling a role of a ScrumMaster for one or several teams in a company of any size, type and agile maturity. This Certified ScrumMaster is designed to integrate people with different level of Scrum exposure and experience. It not only teaches the core concepts. It lets you practice the Agile mindset through a variety of workshops, exercises, and discussions guided by the experienced trainer. 
-              <div class="actions"><a href="training/csm" class="action">More information</a></div>
+              <div class="actions">
+                <div class="more"> <a href="training/csm" class="action">More information</a></div>
+                <div class="social">
+                  <div data-href="http://devchampions.com/training/csm" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true" class="fb-like"></div>
+                </div>
+              </div>
             </div>
           </section>
         </section>
@@ -90,7 +110,12 @@
               <div><a href="https://twitter.com/eduardsi"><img src="/img/twitter.png" alt="eduardsi"></a><strong>&nbsp;Eduards Sizovs</strong><br>Founder @ Latvian Software Craftsmanship Community</div>
             </div>
             <div class="description">Soft skills are paramount to developer's success. Developers that speak customer language, clearly communicate intent, lead and inspire are extremely valuable asset for any customer-centric organisation. This training is designed to make you - developer, better communicator and leader, boost your negotiation and organisational skills. 
-              <div class="actions"><a href="training/softskills" class="action">More information</a></div>
+              <div class="actions">
+                <div class="more"> <a href="training/softskills" class="action">More information</a></div>
+                <div class="social">
+                  <div data-href="http://devchampions.com/training/softskills" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true" class="fb-like"></div>
+                </div>
+              </div>
             </div>
           </section>
         </section>
@@ -105,7 +130,12 @@
               <div><a href="https://twitter.com/codingandrey"><img src="/img/twitter.png" alt="codingandrey"></a><strong>&nbsp;Andrey Adamovich</strong><br>Author of 'Groovy 2 Cookbook'</div>
             </div>
             <div class="description">This 2-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS and others are given during this workshop. 
-              <div class="actions"><a href="training/xa" class="action">More information</a></div>
+              <div class="actions">
+                <div class="more"> <a href="training/xa" class="action">More information</a></div>
+                <div class="social">
+                  <div data-href="http://devchampions.com/training/xa" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true" class="fb-like"></div>
+                </div>
+              </div>
             </div>
           </section>
         </section>
@@ -120,7 +150,12 @@
               <div><a href="https://twitter.com/eduardsi"><img src="/img/twitter.png" alt="eduardsi"></a><strong>&nbsp;Eduards Sizovs</strong><br>Founder @ Latvian Software Craftsmanship Community</div>
             </div>
             <div class="description">Do you want to feel proud of your work? Write code that your colleagues will admire? Move fast without compromising quality? Build long-living software that is easy and fun to maintain? Get out of technical debt without big upfront time investment? Professionally articulate technical decisions to your team and management? Then this course is for you. During this intensive, practical and entertaining 2-day course you will learn principles, practices and patterns for writing readable, maintainable and effective code in Java 8. 
-              <div class="actions"><a href="training/cleancode" class="action">More information</a></div>
+              <div class="actions">
+                <div class="more"> <a href="training/cleancode" class="action">More information</a></div>
+                <div class="social">
+                  <div data-href="http://devchampions.com/training/cleancode" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true" class="fb-like"></div>
+                </div>
+              </div>
             </div>
           </section>
         </section>
