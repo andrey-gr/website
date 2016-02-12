@@ -396,6 +396,30 @@ header#header {
       .shorty:last-child {
         margin-right: 0; } }
 
+#offers .polyfill {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #offers .polyfill:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 767px) {
+    #offers .polyfill {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      #offers .polyfill:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 992px) {
+    #offers .polyfill {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      #offers .polyfill:last-child {
+        margin-right: 0; } }
+
 #offers .offer {
   padding: 25px;
   margin-top: 25px;
