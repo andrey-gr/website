@@ -27,3 +27,33 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 175px;
   height: 175px;
 }
+.icon-kevlin {
+  background-image: url(/img/trainers.png);
+  background-position: -175px -175px;
+  width: 150px;
+  height: 150px;
+}
+.icon-marcin {
+  background-image: url(/img/trainers.png);
+  background-position: -350px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-pavl {
+  background-image: url(/img/trainers.png);
+  background-position: -350px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-philipp {
+  background-image: url(/img/trainers.png);
+  background-position: 0px -350px;
+  width: 150px;
+  height: 150px;
+}
+.icon-simonbrown {
+  background-image: url(/img/trainers.png);
+  background-position: -150px -350px;
+  width: 150px;
+  height: 150px;
+}
