@@ -51,9 +51,15 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 150px;
   height: 150px;
 }
-.icon-simonbrown {
+.icon-seth {
   background-image: url(/img/trainers.png);
   background-position: -150px -350px;
+  width: 150px;
+  height: 150px;
+}
+.icon-simonbrown {
+  background-image: url(/img/trainers.png);
+  background-position: -300px -350px;
   width: 150px;
   height: 150px;
 }
