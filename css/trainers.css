@@ -28,6 +28,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 175px;
   height: 175px;
 }
+.icon-arturkarbone {
+  background-image: url(/img/trainers.png);
+  background-position: -175px -175px;
+  width: 150px;
+  height: 150px;
+}
 .icon-eduardsi {
   background-image: url(/img/trainers.png);
   background-position: 0px -175px;
@@ -36,37 +42,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-kevlin {
   background-image: url(/img/trainers.png);
-  background-position: -175px -175px;
+  background-position: -350px 0px;
   width: 150px;
   height: 150px;
 }
 .icon-marcin {
   background-image: url(/img/trainers.png);
-  background-position: -350px 0px;
+  background-position: -350px -150px;
   width: 150px;
   height: 150px;
 }
 .icon-pavl {
   background-image: url(/img/trainers.png);
-  background-position: -350px -150px;
+  background-position: 0px -350px;
   width: 150px;
   height: 150px;
 }
 .icon-philipp {
   background-image: url(/img/trainers.png);
-  background-position: 0px -350px;
+  background-position: -150px -350px;
   width: 150px;
   height: 150px;
 }
 .icon-seth {
   background-image: url(/img/trainers.png);
-  background-position: -150px -350px;
+  background-position: -300px -350px;
   width: 150px;
   height: 150px;
 }
 .icon-simonbrown {
   background-image: url(/img/trainers.png);
-  background-position: -300px -350px;
+  background-position: -500px 0px;
   width: 150px;
   height: 150px;
 }
